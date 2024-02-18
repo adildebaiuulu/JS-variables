@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+    <script>
+        let name = "Arsen";
+        console.log(`My name is ${name}`);
+
+        let name1 = "Simon"
+        console.log(`My name is: ${name1}`);
+
+        let uch = 3;
+        let besh = 5;        
+
+        let total = uch ;
+        let total1 = besh;
+        console.log(`total $${uch + besh}`)
+
+        console.log("total cost: $" + (599+294)/100);
+
+        let dollar = 599;
+        let cent = 294; 
+        let juz = 100;       
+        console.log("total cost: $" +(dollar + cent) / juz);
+
+        console.log("Total cost: $8.94. Thank you, come again. 599 + 295 / 100");
+        
+        console.log("items(4): $ "  +2 * (2095 + 2) * 799 / 100);
+        console.log(`items(4): $ ${2*(2095 + 2) * 799 / 100}`);
+        
+        console.log("Shipping & handling:"   + (499 + 499) / 100);
+        
+        console.log("Total before tax: $ " + 2 * (2095 + 2) * 799  + (499 + 499) / 100);
+        console.log(`Total before tax: $ ${Math.round(2 * (2095 + 2) * 799  + (499 + 499) / 100)}`);
+        
+        console.log(`Estimated tax (10%): $${Math.round((2 * 2095 + 2 * 499 + 499) * 0.1) / 100}`);
+        
+        let five = 5;
+        let two = 2;
+        let three = 3;
+        let nine =9;
+
+        console.log("Cost of food: $ "  + (five + two) * (three + nine) /4.2);
+        console.log(`Cost of food: $ ${Math.round(five + two) * (three + nine) /4.2}`);
+
+        let totalcost = 0.1;
+        let nalog = 10;
+        console.log("налогов %" + (totalcost * nalog) % nalog );
+
+        let cost1 = 10;
+        let cost2 = 12;
+        console.log("Total cost: $" +(cost1 + cost2));
+        console.log( `Total cost: $${Math.floor (cost1 + cost2) }`)
+    </script>
+
+
+        <button onclick="
+            card = card + 4
+            console.log(` ${card} kartochka `);
+        ">tort koshuu</button>
+
+        <button onclick=" 
+        card = card + 5
+        console.log(` ${card} kartochka `);
+        ">besh koshuu</button>
+
+        <button onclick=" 
+        card = card - 1
+        console.log(` ${card} kartochka `);
+        ">bir aluu</button>
+
+        <button onclick=" 
+        card = card - 3
+        console.log(` ${card} kartochka `);
+        ">uchtu aluu</button>
+        
+        <button onclick=" 
+        card = card - 4
+        console.log(` ${card} kartochka `);
+        ">torttu aluu</button>
+               
+        <script>
+            let card = 0;            
+            console.log(card);
+    
+        </script>
+</body>
+</html>
